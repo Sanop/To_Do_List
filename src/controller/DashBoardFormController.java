@@ -23,6 +23,8 @@ public class DashBoardFormController {
         stage.setScene(scene);
         stage.setTitle("Test Form");
         stage.centerOnScreen();
+
+        System.out.println("Hello");
     }
 
     public void btnTableFormOnAction(ActionEvent actionEvent) throws IOException {
